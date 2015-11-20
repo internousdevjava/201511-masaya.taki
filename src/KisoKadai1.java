@@ -28,7 +28,7 @@ public class KisoKadai1 {
 				if(c==0){
 					c++;
 				}else{
-					System.out.println("もう一度出力してください");
+					System.out.println("もう一度半角数字で入力してください");
 				}
 					System.out.println("1～100まで入力してくださいx軸");
 					//x軸の入力待ち
