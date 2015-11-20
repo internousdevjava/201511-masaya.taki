@@ -28,6 +28,7 @@ public class KisoKadai2 {
 			System.out.printf("%d> ", count + 1);
 			userAns = getNumberInput();
 			System.out.printf("\t%d ..... ", userAns);
+			if(userAns<=100&&userAns>=1)
 			if (ans == userAns) {
 				System.out.println("正解！");
 				break;
@@ -35,6 +36,8 @@ public class KisoKadai2 {
 				System.out.println("大きすぎます。");
 			} else {
 				System.out.println("小さすぎます。");
+			}if(userAns>100){
+				System.out.println("1～100までの数字を入力してください。");
 			}
 			count++;
 		}
